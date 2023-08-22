@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20A2CF9B2A9572A200D8DAEE /* MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2CF9A2A9572A200D8DAEE /* MenuApp.swift */; };
-		20A2CF9D2A9572A200D8DAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2CF9C2A9572A200D8DAEE /* ContentView.swift */; };
+		20A2CF9D2A9572A200D8DAEE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2CF9C2A9572A200D8DAEE /* MenuView.swift */; };
 		20A2CF9F2A9572A400D8DAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A2CF9E2A9572A400D8DAEE /* Assets.xcassets */; };
 		20A2CFA22A9572A400D8DAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A2CFA12A9572A400D8DAEE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		20A2CF972A9572A200D8DAEE /* Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A2CF9A2A9572A200D8DAEE /* MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuApp.swift; sourceTree = "<group>"; };
-		20A2CF9C2A9572A200D8DAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20A2CF9C2A9572A200D8DAEE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		20A2CF9E2A9572A400D8DAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A2CFA12A9572A400D8DAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				20A2CF9A2A9572A200D8DAEE /* MenuApp.swift */,
-				20A2CF9C2A9572A200D8DAEE /* ContentView.swift */,
+				20A2CF9C2A9572A200D8DAEE /* MenuView.swift */,
 				20A2CF9E2A9572A400D8DAEE /* Assets.xcassets */,
 				20A2CFA02A9572A400D8DAEE /* Preview Content */,
 			);
@@ -96,6 +96,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Kraig Kistler";
 				TargetAttributes = {
 					20A2CF962A9572A200D8DAEE = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A2CF9D2A9572A200D8DAEE /* ContentView.swift in Sources */,
+				20A2CF9D2A9572A200D8DAEE /* MenuView.swift in Sources */,
 				20A2CF9B2A9572A200D8DAEE /* MenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
