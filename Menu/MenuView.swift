@@ -17,23 +17,7 @@ struct MenuView: View {
         
         List(menuItems) { menu in
             
-            HStack {
-                Image(menu.imageName)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 50)
-                    .cornerRadius(10)
-                
-                Text(menu.name)
-                    .bold()
-                
-                Text("$" + menu.price)
-            }
-            .listRowSeparator(.hidden)
-            .listRowBackground(
-                Color(.brown)
-                    .opacity(0.1)
-            )
+            MenuListRowView(menu: menu)
         }
         .listStyle(.plain)
         .onAppear {

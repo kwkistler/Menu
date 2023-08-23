@@ -13,6 +13,7 @@
 		20A2CFA22A9572A400D8DAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A2CFA12A9572A400D8DAEE /* Preview Assets.xcassets */; };
 		20A2CFA92A957B3700D8DAEE /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2CFA82A957B3700D8DAEE /* MenuItem.swift */; };
 		20A2CFAB2A96C09400D8DAEE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2CFAA2A96C09300D8DAEE /* DataService.swift */; };
+		20A2CFAD2A96CD3400D8DAEE /* MenuListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2CFAC2A96CD3400D8DAEE /* MenuListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		20A2CFA12A9572A400D8DAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20A2CFA82A957B3700D8DAEE /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		20A2CFAA2A96C09300D8DAEE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		20A2CFAC2A96CD3400D8DAEE /* MenuListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				20A2CF9A2A9572A200D8DAEE /* MenuApp.swift */,
 				20A2CF9C2A9572A200D8DAEE /* MenuView.swift */,
+				20A2CFAC2A96CD3400D8DAEE /* MenuListRowView.swift */,
 				20A2CFA82A957B3700D8DAEE /* MenuItem.swift */,
 				20A2CFAA2A96C09300D8DAEE /* DataService.swift */,
 				20A2CF9E2A9572A400D8DAEE /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				20A2CFA92A957B3700D8DAEE /* MenuItem.swift in Sources */,
 				20A2CF9D2A9572A200D8DAEE /* MenuView.swift in Sources */,
 				20A2CF9B2A9572A200D8DAEE /* MenuApp.swift in Sources */,
+				20A2CFAD2A96CD3400D8DAEE /* MenuListRowView.swift in Sources */,
 				20A2CFAB2A96C09400D8DAEE /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
