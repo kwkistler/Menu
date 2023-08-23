@@ -13,3 +13,5 @@ struct MenuItem {
     var price: String
     var imageName: String
 }
+
+var firstItem = MenuItem(name: "Onigiri", price: "$1.99", imageName: "onigiri")
