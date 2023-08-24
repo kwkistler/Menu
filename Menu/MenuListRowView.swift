@@ -20,8 +20,11 @@ struct MenuListRowView: View {
                 .frame(height: 50)
                 .cornerRadius(10)
             
+            
             Text(menu.name)
+                .font(.title2)
                 .bold()
+                .padding(.horizontal)
             
             Spacer()
             
@@ -38,6 +41,6 @@ struct MenuListRowView: View {
 
 struct MenuListRowView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuListRowView(menu: MenuItem(name: "Test Item", price: "$" + "1.99", imageName: "tako-sushi"))
+        MenuListRowView(menu: MenuItem(name: "Test Item", price: "1.99", imageName: "tako-sushi"))
     }
 }
